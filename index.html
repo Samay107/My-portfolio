@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samay | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="avatar">
+      <!-- Replace this with your own image -->
+      <img src="samay.jpg" alt="Samay">
+    </div>
+
+    <div class="name">Samay</div>
+    <div class="title">Student | Competitive Programmer</div>
+
+    <div class="info">
+      <div><strong>Email:</strong> samaymulchandani24@gmail.com</div>
+      <div><strong>College:</strong> IIT Indore</div>
+      <div><strong>Phone:</strong> +91 98765 43210</div>
+      <div><strong>Location:</strong> Indore, India</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <nav>
+      <a href="#" class="tab active" data-target="about">About</a>
+      <a href="#" class="tab" data-target="resume">Resume</a>
+      <a href="#" class="tab" data-target="portfolio">Portfolio</a>
+      <a href="#" class="tab" data-target="contact">Contact</a>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="active">
+      <h2>About Me</h2>
+      <p>I'm Samay, a student at IIT Indore passionate about technology, AI, and software development. 
+         I participated in <strong>IITISoC 2025</strong> (AI/ML Track) and the <strong>ICPC Online Round 2025-26</strong>. 
+         I cleared JEE Advanced with an <strong>All India Rank of 1068</strong>.  
+         I love learning new tech stacks, working on challenging problems, and building impactful digital solutions.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Building modern, responsive, and interactive websites using React, Flask, and Node.js.</p>
+        </div>
+        <div class="card">
+          <h3>Machine Learning</h3>
+          <p>Interested in computer vision, OCR, and reinforcement learning applications.</p>
+        </div>
+        <div class="card">
+          <h3>Competitive Programming</h3>
+          <p>Enjoy solving algorithmic challenges — participated in ICPC and Codeforces contests.</p>
+        </div>
+        <div class="card">
+          <h3>Open Source</h3>
+          <p>Actively learning GitHub collaboration and contributing to open projects.</p>
+        </div>
+      </div>
+
+      <!-- Hobbies -->
+      <div style="margin-top:40px;">
+        <h2>Hobbies & Interests</h2>
+        <p>Beyond coding, I love staying active and exploring creative interests.</p>
+        <div class="cards">
+          <div class="card">
+            <h3>🎮 Gaming</h3>
+            <p>I enjoy strategy and FPS games — they sharpen focus and decision-making.</p>
+          </div>
+          <div class="card">
+            <h3>⚽ Football</h3>
+            <p>Playing and watching football helps me unwind, stay fit, and learn teamwork.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+      <h2>Education & Achievements</h2>
+      <p><strong>IIT Indore</strong> — B.Tech (Computer Science & Engineering)<br>2024 - 2028</p>
+      <ul style="margin-top:10px; line-height:1.8; color:var(--text-muted);">
+        <li>🏆 IITISoC 2025: Built a Social Media Web App using Flask and MySQL.</li>
+        <li>🏅 ICPC Online Round 2025-26 participant.</li>
+        <li>📈 JEE Advanced AIR 1068.</li>
+        <li>💻 Developed and deployed several personal projects.</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h2>My Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>PolyOCR</h3>
+          <p>Multilingual OCR system using deep learning, capable of reading text from multiple scripts.</p>
+        </div>
+        <div class="card">
+          <h3>Social Media Web App</h3>
+          <p>A full-stack social media platform built with Flask, MySQL, and React for posts, followers, and stories.</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>This personal portfolio built using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact" onsubmit="event.preventDefault(); alert('Thanks for reaching out!')">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Message..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      © 2025 Samay — Built using HTML, CSS & JS 💻
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
