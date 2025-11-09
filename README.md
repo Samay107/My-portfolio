@@ -1,1 +1,2 @@
-to get website/run website go to settings and pages you will get github hosted website
+https://samay107.github.io/My-portfolio/
+this is my website link to run live
